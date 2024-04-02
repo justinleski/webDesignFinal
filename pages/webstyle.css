@@ -50,4 +50,46 @@ h3 {
     flex-direction: column;
     padding-left: 6rem;
     padding-right: 6rem;
+    padding-bottom: 2.5rem;
+}
+
+.infoContainer{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+}
+
+.infoCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    margin-left: 12px;
+    margin-right: 12px;
+    background: rgb(34,195,47);
+    background: linear-gradient(0deg, rgba(34,195,47,1) 20%, rgba(186,253,45,1) 100%);
+    min-width: 12em;
+    border-radius: 5%;
+    color: white;
+    padding-top: 0.5rem;
+}
+
+.infoCard img {
+    width: 10rem;
+    height: auto;
+    border-radius: 12px;
+    padding: 2px;
+    background: rgb(45, 201, 58);
+}
+
+.container h3{
+    margin-top: 1.5rem;
+    margin-bottom: 16px;
+}
+
+.container h4{
+    margin-top: 0px;
+    margin-bottom: 2rem;
+    color: rgb(198, 199, 204);
 }
