@@ -3,19 +3,34 @@
     <head>
         <meta charset="UTF-8">
         <title>The GPU</title>
-
         <link rel="stylesheet" href="webstyle.css">
+
+        <!--Please note webstyle.css exists, these are just for the page specific alignments, and so they do not affect the subpages-->
+        <style>
+            h1 {
+                position: absolute; 
+                top: 40%; 
+                left: 25%; transform: translate(-50%, -50%); 
+                white-space: nowrap;
+            }
+            h2 {
+                position: absolute; 
+                top: 50%; 
+                left: 27.5%; transform: translate(-50%, -50%); 
+            }
+        </style>
     </head>
 
     <body>
-
+        <!--Header containing title and image-->
         <div class="container" id="hero">
-            <h1>The GPU</h1>
+            <h1 class="greenGradient">The GPU</h1>
             <h2 style = "color: white;">The silent revolution in computation</h2>
             <img src="../images/heroGPU.jpg" alt="An image of the Nvidia GPU" id="bannerHero">
  
         </div>
 
+        <!--Body with info cards-->
         <div class="paddingGlobal">
             <div class="container">
                 <h3>Enabling advancements in all industries</h3>
@@ -26,23 +41,37 @@
                         
                         <img src="../images/crashSim.jpg">
                         <h5>Physics Simulation</h5>
+                        <p>Discover how the GPU has allowed advancements in safety and reduced costs through simulating the real world.</p>
                     </div>
                     <div class="infoCard">
                         
                         <img src="../images/nvidiaMetr.jpg">
                         <h5>Artificial Intelligence</h5>
+                        <p>Find out how the computational power of the GPU trailblazed for modern AI models.</p>
                     </div>
                     <div class="infoCard">
                         
                         <img src="../images/crypto.jpg">
                         <h5>Cryptocurrency</h5>
+                        <p>Unearth the mystique behind how a digital currency can hold so much value. Spoilers, the GPU powers it all!</p>
                     </div>
                 </div>
 
             </div>
-            
-        </div>
 
+            
+            
+        </div> <!--This div padds the sides of the website so the elements do not press agaisnt edges of page-->
+
+        <!--Footer-->
+        <footer>
+            <div class="paddingGlobal">
+                <img src="../images/graphic-card-icon.svg" class="whiteFilter">
+                <p>Hello</p> 
+                <p>hello2</p>
+            </div>
+            
+        </footer>
 
 
     </body>

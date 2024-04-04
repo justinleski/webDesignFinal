@@ -6,11 +6,17 @@ body{
     margin: 0px;
 }
 
-h1 {
-    font-weight: 900;
-    font-size: 10vw;
-    margin: 0%;
+p{
+    font-size: 2vw;
+    color: rgb(28, 28, 28);
+}
 
+.whiteFilter {
+    filter: brightness(0);
+    filter: invert(1)
+}
+
+.greenGradient {
     /*Create gradient for text */
     background-image: radial-gradient(circle at 12.3% 19.3%, rgb(195, 227, 173) 0%, rgb(17, 192, 99)100.2%);
     background-size: 100%;
@@ -20,18 +26,12 @@ h1 {
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
- 
-    position: absolute; 
-    top: 40%; 
-    left: 25%; transform: translate(-50%, -50%); 
-    white-space: nowrap;
 }
 
-h2 {
-    position: absolute; 
-    top: 50%; 
-    left: 27.5%; transform: translate(-50%, -50%); 
-    white-space: nowrap;
+h1 {
+    font-weight: 900;
+    font-size: 10vw;
+    margin: 0%;   
 }
 
 h3 {
@@ -67,20 +67,31 @@ h3 {
     gap: 4px;
     margin-left: 12px;
     margin-right: 12px;
-    background: rgb(34,195,47);
-    background: linear-gradient(0deg, rgba(34,195,47,1) 20%, rgba(186,253,45,1) 100%);
+    background-image: radial-gradient(circle at 12.3% 19.3%, rgb(195, 227, 173) 0%, rgb(178, 245, 209)100.2%);
     min-width: 12em;
-    border-radius: 5%;
-    color: white;
+    max-width: 40vw;
+    border-radius: 2.75%;
     padding-top: 0.5rem;
 }
 
 .infoCard img {
-    width: 10rem;
+    object-fit: contain;
+    max-width: 17.5vw;
     height: auto;
     border-radius: 12px;
-    padding: 2px;
-    background: rgb(45, 201, 58);
+}
+
+.infoCard p{
+    color: rgb(65, 65, 65);
+    font-size: 1.5vw;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+.infoCard h5{
+    margin: 8px;
 }
 
 .container h3{
@@ -93,3 +104,15 @@ h3 {
     margin-bottom: 2rem;
     color: rgb(198, 199, 204);
 }
+
+footer{
+
+    background: hsla(208, 23%, 16%);
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    color: white;
+}
+
