@@ -11,6 +11,7 @@ body{
 p{
     font-size: 2vw;
     color: rgb(28, 28, 28);
+    line-height: 140%;
 }
 
 .whiteFilter {
