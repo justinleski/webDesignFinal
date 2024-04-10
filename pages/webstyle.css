@@ -141,6 +141,23 @@ h3 {
     color: rgb(198, 199, 204);
 }
 
+.container img{
+    border-radius: 1.5%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+}
+
+li{
+    line-height: 170%;
+    font-size: 2vw;
+    color: rgb(28, 28, 28);
+}
+
+li a{
+    color: inherit;
+}
+
 footer{
     background: hsla(208, 23%, 16%);
     padding-top: 8px;
@@ -169,11 +186,20 @@ footer .footerWidth p{
     margin-bottom: 0;
 }
 
+footer .footerWidth img{
+    padding-top: 16px;
+}
+
 .centerTitle {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.container .centerText {
+    text-align: center;
+    margin-bottom: 0;
 }
 
 .changeOpacity{
