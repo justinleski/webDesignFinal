@@ -9,7 +9,7 @@ body{
 }
 
 p{
-    font-size: 2vw;
+    font-size: 1.75em;
     color: rgb(28, 28, 28);
     line-height: 140%;
 }
@@ -37,10 +37,6 @@ h1 {
     margin: 0%;   
 }
 
-h3 {
-    font-size: 6vw;
-}
-
 .container{
     display: flex;
     flex-direction: column;
@@ -50,13 +46,27 @@ h3 {
 
 .container h3{
     font-family: "Manrope", sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 16px;
+    font-size: 450%;
+}
+
+.container h4{
+    margin-top: 0px;
+    margin-bottom: 2rem;
+    color: rgb(198, 199, 204);
+    font-size: 150%;
+}
+
+.container img{
+    min-height: 100%;
 }
 
 .paddingGlobal{
     display: flex;
     flex-direction: column;
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
     padding-bottom: 2.5rem;
 }
 
@@ -90,7 +100,7 @@ h3 {
 
 .infoCard p{
     color: rgb(65, 65, 65);
-    font-size: 1.5vw;
+    font-size: 1em;
     padding-left: 12px;
     padding-right: 12px;
     padding-bottom: 4px;
@@ -106,6 +116,7 @@ h3 {
     margin: 8px;
     font-family: "Manrope", sans-serif;
     font-weight: bold;
+    font-size: 125%;
 }
 
 .contactInfo {
@@ -130,18 +141,9 @@ h3 {
     margin-bottom: 0;
 }
 
-.container h3{
-    margin-top: 1.5rem;
-    margin-bottom: 16px;
-}
 
-.container h4{
-    margin-top: 0px;
-    margin-bottom: 2rem;
-    color: rgb(198, 199, 204);
-}
 
-.container img{
+.articleImg{
     border-radius: 1.5%;
     margin-top: 12px;
     margin-bottom: 12px;
@@ -150,7 +152,7 @@ h3 {
 
 li{
     line-height: 170%;
-    font-size: 2vw;
+    font-size: 1.75em;
     color: rgb(28, 28, 28);
 }
 
