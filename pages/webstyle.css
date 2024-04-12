@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Montserrat+Alternates&display=swap');
 
+/* Universal Styling Elements*/
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -14,6 +15,18 @@ p{
     line-height: 140%;
 }
 
+/* Title page splash text */
+h1 {
+    font-weight: 900;
+    font-size: 10vw;
+    margin: 0%;   
+}
+
+#hero h1{
+    font-family: "Manrope", sans-serif;
+}
+
+/* Cosmetic text/div modification, applicable to no specific cause*/
 .whiteFilter {
     filter: brightness(0);
     filter: invert(1)
@@ -31,12 +44,7 @@ p{
     -moz-text-fill-color: transparent;
 }
 
-h1 {
-    font-weight: 900;
-    font-size: 10vw;
-    margin: 0%;   
-}
-
+/* Nav bar styling */
 .navBar{
     display: flex;
     justify-content: center;
@@ -54,6 +62,7 @@ h1 {
     font-weight: bolder;
 }
 
+/* Contnet container styling - for articles, images, links, etc*/
 .container{
     display: flex;
     flex-direction: column;
@@ -83,6 +92,11 @@ h1 {
     min-height: 100%;
 }
 
+.container p a{
+    color: inherit;
+}
+
+/* Adds padding to side of the page to prevent it from touching edge of window*/
 .paddingGlobal{
     display: flex;
     flex-direction: column;
@@ -91,6 +105,7 @@ h1 {
     padding-bottom: 2.5rem;
 }
 
+/* Info cards displaying a tag line and image related to specific article*/
 .infoContainer{
     display: flex;
     justify-content: space-around;
@@ -140,6 +155,7 @@ h1 {
     font-size: 125%;
 }
 
+/* Located in the footer, formats contact info*/
 .contactInfo {
     display: flex;
     flex-direction: column;
@@ -162,6 +178,7 @@ h1 {
     margin-bottom: 0;
 }
 
+/* Formatting for article images and highlights*/
 .articleImg{
     border-radius: 1.5%;
     margin-top: 12px;
@@ -176,6 +193,7 @@ h1 {
     padding-right: 2%;
 }
 
+/* Style lists */
 li{
     line-height: 170%;
     font-size: 1.75em;
@@ -186,6 +204,7 @@ li a{
     color: inherit;
 }
 
+/* Footer for each page */
 footer{
     background: hsla(208, 23%, 16%);
     padding-top: 8px;
@@ -194,10 +213,6 @@ footer{
 
 footer p{
     color: white;
-}
-
-#hero h1{
-    font-family: "Manrope", sans-serif;
 }
 
 footer .footerWidth{
@@ -218,6 +233,7 @@ footer .footerWidth img{
     padding-top: 16px;
 }
 
+/* Style navigational icon (up arrow) at bottom of each article*/
 .toTop {
     display: flex;
     flex-direction: column;
@@ -232,6 +248,7 @@ footer .footerWidth img{
     margin-top: 32px;
 }
 
+/* Cosmetic changes for text */
 .centerTitle {
     position: absolute;
     top: 50%;
@@ -244,7 +261,3 @@ footer .footerWidth img{
     margin-bottom: 0;
 }
 
-.changeOpacity{
-    z-index: -1;
-    opacity: 0.4;
-}
