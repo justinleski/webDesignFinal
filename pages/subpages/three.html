@@ -7,6 +7,14 @@
     </head>
 
     <body>
+        <!--Nav bar-->
+        <div class="navBar" id="top">
+            <a href="../home.html">Home</a>
+            <a href="one.html">Physics</a>
+            <a href="two.html">AI</a>
+            <a href="three.html">Crypto</a>
+            <a href="#contEmail">Contact Us</a>
+        </div>
 
         <!--Header containing title and image-->
         <div class="container" id="hero" style="background-color: black;">
@@ -17,21 +25,27 @@
 
         <div class="paddingGlobal">
             <div class="container">
-                <h3>Highlights of this Article</h3>
-                <ol>
-                    <li><a href="#crypto">What is Cryptocurrency?</a></li>
-                    <li><a href="#role">How does the GPU play a part in Cryptocurrency?</a></li>
-                    <li><a href="#controversy">The controversy of the GPU in Cryptocurrency</a></li>
-                </ol>
+
+                <!--Hyperlinks to portions of the article-->
+                <div class="articleHighlights">
+                    <h3>Highlights of this Article</h3>
+                    <ol>
+                        <li><a href="#crypto">What is Cryptocurrency?</a></li>
+                        <li><a href="#role">How does the GPU play a part in Cryptocurrency?</a></li>
+                        <li><a href="#controversy">The controversy of the GPU in Cryptocurrency</a></li>
+                    </ol>
+                </div>
+
+                <!--Article is spread into sub-topics-->
 
                 <h3 id="crypto">What is Cryptocurrency?</h3>
                 <p>
-                    Cryptocurrency is a digital currency which is traded for real-world currency based on speculative value. 
-                    There are a plethora of cryptocurrencies, however the most notable, and perhaps most familiar, is Bitcoin. 
+                    <b>Cryptocurrency</b> is a digital currency which is traded for real-world currency based on speculative value. 
+                    There are a plethora of cryptocurrencies, however the most notable, and perhaps most familiar, is <i>Bitcoin</i>. 
                     Bitcoin's value is derived from the fact that ownership is proven through the blockchain. This means anyone can see the history of where the Bitcoin went, and who owned it. 
                     Moreover, no central entity monitors nor has access to Bitcoin making it much more ungovernable. This functionality is a product of the introduction of block mining. Some may refer to this as simply mining cryptocurrency.
                      Mining blocks means to solve complex mathematical problems to essentially unlock and own the Bitcoin. 
-                     Consequently, computationally heavy math often relies on the Graphics Processing Unit (GPU) as it can simultaneously compute.
+                     Consequently, computationally heavy math often relies on the <b>Graphics Processing Unit</b> (GPU) as it can simultaneously compute.
                 </p>
                 
                 <img class="articleImg" src="../../images/cryptoMine.jpg" alt="Multiple racks with GPUs on top of GPUs in a large open warehouse">
@@ -44,21 +58,27 @@
                     Every time a block is mined, the miner is rewarded as an incentive to continue mining these blocks thus supporting the cryptocurrency ecosystem. 
                     Many more mines exist for other currencies if the currency opts to use blockchain technology. 
                     As a result, many more mines akin to the one described exists with the sole purpose of cashing in on mining these blocks. 
-                    However, it is important to note that because this process is so intensive, it often reduces the lifespan of the GPU dramatically producing a lot of electronic waste and consuming a lot of electricity.
+                    However, it is important to note that because this process is so intensive, it often reduces the lifespan of the GPU <i>dramatically</i> producing a lot of electronic waste and consuming a lot of electricity.
                 </p>
                 
                 <h3 id="controversy">A Controversial Point of Debate</h3>
                 <p>
                     Since the GPU is used in such a fashion, it is often a hot topic of debate on the ethics of cryptocurrency mining. Evidently, the GPUs prove useful in breaking mathematical equations, 
                     but excess waste and electricity use have incredibly strong environmental implications, and not for the benefit of the environment. 
-                    Critics cite that the power used for these mines is enough for multiple neighbourhoods and devastates the local environment. One such example is Riot's Rockdale Facility, the largest Bitcoin mining operation in America. 
-                    This facility uses an estimated 450 MW of power, equivalent to the energy consumption of 300,000 homes. 
+                    Critics cite that the power used for these mines is enough for multiple neighbourhoods and devastates the local environment. One such example is <i>Riot's Rockdale Facility</i>, the largest Bitcoin mining operation in America. 
+                    This facility uses an estimated <b>450 MW</b> of power, equivalent to the energy consumption of 300,000 homes. 
                     Furthermore, since GPUs produce a lot of heat, they need a way to be cooled. Riot's Rockdale Facility uses the local lake for cooling their GPUs in spite of the area being prone to droughts. 
                     Overall, while cryptocurrency may be impressive, the environmental implications of it utilizing the GPU is a controversial issue that is heavily debated.
                 </p>
 
                 <img class="articleImg" src="../../images/riotRockdale.jpg" alt="An image of the Rockdale crypto mining facility">
                 <h4 class="centerText">Riot's Rockdale cryptocurrency mining facility</h4>
+
+                <!--Allow user to go to top of article-->
+                <div class="toTop">
+                    <a href="#top"><img src="../../images/topArrow.svg"></a>
+                    <h4 class="centerText">Back to top</h4>
+                </div>
                 
             </div>
         </div>
@@ -70,7 +90,7 @@
                 <img src="../../images/graphic-card-icon.svg" class="whiteFilter" style="max-width: 40px; max-height: 40px;">
                 <p>We are proud to present the GPU as a cutting edge piece of hardware. We specialize in this technology, if you have inquiries please do not hesitate to contact us.</p> 
                 <div class="contactInfo">
-                    <h5>Contact Info</h5>
+                    <h5 id="contEmail">Contact Info</h5>
                     <p>Email: <a href=mailto:"info@gpu.com">info@gpu.com</a></p>
                 </div>
             </div>

@@ -7,6 +7,14 @@
     </head>
 
     <body>
+        <!--Nav bar-->
+        <div class="navBar" id="top">
+            <a href="../home.html">Home</a>
+            <a href="one.html">Physics</a>
+            <a href="two.html">AI</a>
+            <a href="three.html">Crypto</a>
+            <a href="#contEmail">Contact Us</a>
+        </div>
 
         <!--Header containing title and image-->
         <div class="container" id="hero" style="background-color: black;">
@@ -17,20 +25,26 @@
 
         <div class="paddingGlobal">
             <div class="container">
+
+                <!--Hyperlinks to portions of the article-->
+                <div class="articleHighlights">
                 <h3>Highlights of this Article</h3>
-                <ol>
-                    <li><a href="#phys">Emulation of Physics</a></li>
-                    <li><a href="#crash">Using the GPU for Crash Testing</a></li>
-                    <li><a href="#jet">Simulating Jet Engines with the GPU</a></li>
-                    <li><a href="#conc">A Quick Summary</a></li>
-                </ol>
+                    <ol>
+                        <li><a href="#phys">Emulation of Physics</a></li>
+                        <li><a href="#crash">Using the GPU for Crash Testing</a></li>
+                        <li><a href="#jet">Simulating Jet Engines with the GPU</a></li>
+                        <li><a href="#conc">A Quick Summary</a></li>
+                    </ol>
+                </div>
+
+                <!--Article is spread into sub-topics-->
 
                 <h3 id="phys">Emulating Physics</h3>
                 <p>
-                    Crash testing has long been a safety measure deployed to ensure that a new vehicle is up to safety standards. 
+                    <b>Crash testing</b> has long been a safety measure deployed to ensure that a new vehicle is up to safety standards. 
                     It allows for peace of mind that the user of the vehicle will suffer minimal damage in the event of a crash. However, this comes with one large caveat. It is very expensive to crash test. For a long time, companies had to set up a proper test environment, 
                     control variables, and meticulously record the results of a crash test. If it happened to fail, that would mean a loss of money on recreating the failed test. This hefty price tag prompted eager venture capitalists to find a way to reduce costs and improve 
-                    the time efficiency of these tests. Enter the Graphics Processing Unit (GPU), this device allows simultaneous computation, which means performing one operation many times in many ways (Paciorek). This characteristic of the GPU has made it particularly useful in simulating 
+                    the time efficiency of these tests. Enter the <b>Graphics Processing Unit</b> (GPU), this device allows simultaneous computation, which means performing one operation many times in many ways (Paciorek). This characteristic of the GPU has made it particularly useful in simulating 
                     the real world, especially physics. However, it is important to note that it can also be used for cell simulations, rendering light, and testing engines. 
                 </p>
 
@@ -41,14 +55,14 @@
                 <p>
                     Crash tests on vehicles can be conducted in a variety of ways, depending on the company and their budget. For example, the Nvidia CUDA has been used been used to execute parallel computing processes which create a variety of scenarios all the while 
                     analyzing the damage to the simulated car to identify weak spots and potential issues with the car (Cai). 
-                    The Nvidia CUDA is an industrial grade GPU created for simultaneous computing. Suddenly, by being able to do all these tests at once, the number of staff required 
+                    The <b>Nvidia CUDA</b> is an industrial grade GPU created for simultaneous computing. Suddenly, by being able to do all these tests at once, the number of staff required 
                     substantially decreases in addition to the extra time and money spent on creating a testing environment. All in all, the GPU has become a staple in physics simulations, 
                     with crash simulations being a notable example. 
                 </p>
                 <h3 id="jet">Jet Engines</h3>
                 <p>
                     On top of simulating crashes, the GPU is also particularly useful in the simulation of jet engines. Rolls-Royce is a notable example of an industry player investing in the GPU. 
-                    Rolls-Royce has teamed up with Nvidia to prepare for the future of quantum computing all the while using their A100 Tensor Core GPUs to simulate jet engines on Classiq's digital engine. 
+                    <i>Rolls-Royce</i> has teamed up with Nvidia to prepare for the future of quantum computing all the while using their A100 Tensor Core GPUs to simulate jet engines on <i>Classiq</i>'s digital engine. 
                     Evidently, companies are finding more and more use cases of the GPU which is impressively used to recreate physics (“NVIDIA, Rolls-Royce and Classiq”).  
                 </p>
 
@@ -60,6 +74,12 @@
                     Altogether, many industries are adopting the GPU to increase their efficiency in addition to cutting costs.
                      This breakthrough shows many promising advancements in the future of the GPU. 
                 </p>
+
+                <div class="toTop">
+                    <a href="#top"><img src="../../images/topArrow.svg"></a>
+                    <h4 class="centerText">Back to top</h4>
+                </div>
+
             </div>
         </div>
 
@@ -70,7 +90,7 @@
                 <img src="../../images/graphic-card-icon.svg" class="whiteFilter" style="max-width: 40px; max-height: 40px;">
                 <p>We are proud to present the GPU as a cutting edge piece of hardware. We specialize in this technology, if you have inquiries please do not hesitate to contact us.</p> 
                 <div class="contactInfo">
-                    <h5>Contact Info</h5>
+                    <h5 id="contEmail">Contact Info</h5>
                     <p>Email: <a href=mailto:"info@gpu.com">info@gpu.com</a></p>
                 </div>
             </div>

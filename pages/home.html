@@ -10,14 +10,23 @@
             h1 {
                 position: absolute; 
                 top: 40%; 
-                left: 22.5%; transform: translate(-50%, -50%); 
+                left: 22.5%; transform: translate(-50%, 10%); 
                 white-space: nowrap;
             }
         </style>
     </head>
 
     <body>
-        <!--Header containing title and image-->
+        <!--Nav bar-->
+        <div class="navBar">
+            <a href="home.html">Home</a>
+            <a href="subpages/one.html">Physics</a>
+            <a href="subpages/two.html">AI</a>
+            <a href="subpages/three.html">Crypto</a>
+            <a href="#contEmail">Contact Us</a>
+        </div>
+
+        <!--Hero containing title and image-->
         <div class="container" id="hero">
             <h1 class="greenGradient">The GPU</h1>
             <img src="../images/heroWide.png" alt="An image of the Nvidia GPU" id="bannerHero">
@@ -30,6 +39,7 @@
                 <h3>Enabling advancements in all industries</h3>
                 <h4>Find out how the GPU has helped us</h4>
 
+                <!--These are divs containing an image relevant to the article and brief description-->
                 <div class="infoContainer">   
                     <div class="infoCard">
                         
@@ -67,7 +77,7 @@
                     <img src="../images/graphic-card-icon.svg" class="whiteFilter" style="max-width: 40px; max-height: 40px;">
                     <p>We are proud to present the GPU as a cutting edge piece of hardware. We specialize in this technology, if you have inquiries please do not hesitate to contact us.</p> 
                     <div class="contactInfo">
-                        <h5>Contact Info</h5>
+                        <h5 id="contEmail">Contact Info</h5>
                         <p>Email: <a href=mailto:"info@gpu.com">info@gpu.com</a></p>
                     </div>
                 </div>

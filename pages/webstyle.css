@@ -9,7 +9,7 @@ body{
 }
 
 p{
-    font-size: 1.75em;
+    font-size: 75%;
     color: rgb(28, 28, 28);
     line-height: 140%;
 }
@@ -37,11 +37,32 @@ h1 {
     margin: 0%;   
 }
 
+.navBar{
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    background: hsla(208, 23%, 16%);
+    gap: 80px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.navBar a{
+    color: white;
+    font-family: "Manrope", sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
 .container{
     display: flex;
     flex-direction: column;
     background-color: white;
     color: black;
+}
+
+.container p{
+    font-size: 165%;
 }
 
 .container h3{
@@ -147,6 +168,14 @@ h1 {
     margin-bottom: 12px;
 }
 
+.articleHighlights{
+    margin-top: 48px;
+    border-radius: 1.5%;
+    background-image: radial-gradient(circle at 12.3% 19.3%, rgb(160, 201, 133) 0%, rgb(73, 219, 112)100.2%);
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 li{
     line-height: 170%;
     font-size: 1.75em;
@@ -187,6 +216,20 @@ footer .footerWidth p{
 
 footer .footerWidth img{
     padding-top: 16px;
+}
+
+.toTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.toTop img{
+    max-width: 40px;
+    max-height: 40px;
+    filter: brightness(5);
+    margin-top: 32px;
 }
 
 .centerTitle {

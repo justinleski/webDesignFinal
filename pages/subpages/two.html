@@ -7,6 +7,14 @@
     </head>
 
     <body>
+        <!--Nav bar-->
+        <div class="navBar" id="top">
+            <a href="../home.html">Home</a>
+            <a href="one.html">Physics</a>
+            <a href="two.html">AI</a>
+            <a href="three.html">Crypto</a>
+            <a href="#contEmail">Contact Us</a>
+        </div>
 
         <!--Header containing title and image-->
         <div class="container" id="hero" style="background-color: black;">
@@ -17,20 +25,26 @@
 
         <div class="paddingGlobal">
             <div class="container">
-                <h3>Highlights of this Article</h3>
-                <ol>
-                    <li><a href="#data">How the GPU uses Data</a></li>
-                    <li><a href="#nvidia">What is the Nvidia City?</a></li>
-                    <li><a href="#genAi">The Role of the GPU in Generative AI</a></li>
-                </ol>
+
+                <!--Hyperlinks to portions of the article-->
+                <div class="articleHighlights">
+                    <h3>Highlights of this Article</h3>
+                    <ol>
+                        <li><a href="#data">How the GPU uses Data</a></li>
+                        <li><a href="#nvidia">What is the Nvidia City?</a></li>
+                        <li><a href="#genAi">The Role of the GPU in Generative AI</a></li>
+                    </ol>
+                </div>
+
+                <!--Article is spread into sub-topics-->
 
                 <h3 id="data">Data</h3>
                 <p>
-                    The Graphics Processing Unit (GPU) is a key component in many facets of Computer Science. It allows for simultaneous computing which is essential for crunching large amounts of data. 
+                    The <b>Graphics Processing Unit</b> (GPU) is a key component in many facets of Computer Science. It allows for simultaneous computing which is essential for crunching large amounts of data. 
                     Data is beneficial for machine learning algorithms and especially for neural networks. By processing large amounts of data, AI uses it to identify patterns such as in populations, 
                     the weather, or visually recognizable patterns such as textiles. All of these examples and more can be use cases of AI, and it goes beyond that. 
                     AI is so versatile, that it can be implemented into virtually any piece of software and industry. 
-                    If it should be is another discussion, yet the sheer number of AI-related products being produced is indicative of a paradigm shift. 
+                    If it should be is another discussion, yet the sheer number of AI-related products being produced is indicative of a <i>paradigm shift</i>. 
                 </p>
 
                 <img class="articleImg" src="../../images/cityChallenge.jpeg" alt="Boxes outline elements of a city and identify them based on their class such as sedan or suv, and the state of traffic lights">
@@ -38,23 +52,29 @@
 
                 <h3 id="nvidia">Nvidia AI City Challenge</h3>
                 <p>
-                    An impressive example of the depths of AI is the Nvidia AI City Challenge, which is hosted annually by Nvidia in an attempt to showcase the sheer capabilities of its computing infrastructure. 
-                    This includes but is not limited to the GPU, as it is crucial to the functionality of AI and how it uses simultaneous computation to identify patterns. 
+                    An impressive example of the depths of AI is the <b>Nvidia AI City Challenge</b>, which is hosted annually by <i>Nvidia</i> in an attempt to showcase the sheer capabilities of its computing infrastructure. 
+                    This includes but is not limited to the <b>GPU</b>, as it is crucial to the functionality of AI and how it uses simultaneous computation to identify patterns. 
                     This challenge hosted by Nvidia boasts no specific geographical location; rather it invites people from all over the world to participate in creating an AI to identify and correctly distinguish cars, 
                     people, and other items. It not only demonstrates that Nvidia’s GPUs are more than capable of performing concise mass surveillance but attracts investors who see the potential in harnessing this
                      technology for safety (M. Naphade et al). 
                 </p>
                 <h3 id="genAi">Generative AI</h3>
                 <p>
-                    Another area where AI excels is in generation, most notably of images. Recent advancements in generative models like DALL-E have proven that creating something from almost nothing is now possible with AI. 
+                    Another area where AI excels is in generation, most notably of images. Recent advancements in generative models like <b>DALL-E</b> have proven that creating something from almost nothing is now possible with AI. 
                     By inserting a prompt, the model will take the keywords provided and begin to map together the concepts and how they may interact and produces an image based on the relevant keywords and prompts. 
-                    In fact, a man by the name of Jason Allen entered an art competition using an image created by AI. Subsequently, he won and received a prize for the art in spite of not creating it himself (Kuta). 
+                    In fact, a man by the name of <i>Jason Allen</i> entered an art competition using an image created by AI. Subsequently, he won and received a prize for the art in spite of not creating it himself (Kuta). 
                     It goes without saying that creating such complex pieces that they may win an art competition requires a good amount of computing power. Hence, these models are very intensive in their usage of computation which necessitates the GPU.
                      It is an impressive marvel of technology, demonstrating the power of the GPU. 
                 </p>
 
                 <img class="articleImg" src="../../images/aiArt.webp" alt="A royal looking woman standing in front of a large palace like structure with a huge ring in the middle. The image is placed next to a first place ribbon.">
                 <h4 class="centerText">The AI generated artwork which won the competition</h4>
+
+                <!--Allow user to go to top of article-->
+                <div class="toTop">
+                    <a href="#top"><img src="../../images/topArrow.svg"></a>
+                    <h4 class="centerText">Back to top</h4>
+                </div>
 
             </div>
         </div>
@@ -66,7 +86,7 @@
                 <img src="../../images/graphic-card-icon.svg" class="whiteFilter" style="max-width: 40px; max-height: 40px;">
                 <p>We are proud to present the GPU as a cutting edge piece of hardware. We specialize in this technology, if you have inquiries please do not hesitate to contact us.</p> 
                 <div class="contactInfo">
-                    <h5>Contact Info</h5>
+                    <h5 id="contEmail">Contact Info</h5>
                     <p>Email: <a href=mailto:"info@gpu.com">info@gpu.com</a></p>
                 </div>
             </div>
